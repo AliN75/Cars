@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 ```
 # Cars
 
-The goal of Cars is to saying nothing
+The goal of Cars is to ...
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
