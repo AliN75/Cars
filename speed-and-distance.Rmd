@@ -1,13 +1,12 @@
 ---
 title: "Cars"
-knitr: (function(input_file, encoding) {
+knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Ali Nasseh"
 date: "May 24, 2019"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
